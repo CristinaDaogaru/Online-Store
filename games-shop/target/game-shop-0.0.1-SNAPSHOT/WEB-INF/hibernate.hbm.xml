@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="RegistrationModel" table="registration">
+      <meta attribute="class-description">
+         This class contains the employee detail. 
+      </meta>
+      <id name="email" type="string" column="email">
+         <generator class="native"/>
+      </id>
+      
+      <property name="fname" column="fname" type="string"/>
+      <property name="lname" column="lname" type="string"/>
+      <property name="username" column="username" type="string"/>
+      <property name="userPassword" column="userPassword" type="string"/>
+   </class>
+</hibernate-mapping>

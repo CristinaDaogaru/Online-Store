@@ -1,0 +1,138 @@
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+/* #playground-container {
+	height: 100px;
+	overflow: hidden !important;
+	-webkit-overflow-scrolling: touch;
+} */
+
+body, html {
+	height: auto;
+	background-repeat: no-repeat;
+	background: url(https://i.ytimg.com/vi/4kfXjatgeEU/maxresdefault.jpg);
+	font-family: 'Oxygen', sans-serif;
+	background-size: cover;
+}
+ 
+.main {
+	margin-top:50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+ h5 {
+    align-text:center;
+	font-size: 30px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+	color:#ffffff;
+} 
+
+hr {
+	width: 50%;
+	color: #ffffff;
+}
+
+.form-group {
+	margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+ 
+label {
+	margin-bottom: auto;
+} 
+
+ input, input::-webkit-input-placeholder {
+	font-size: 12px;
+	padding-top: 10px;
+	color:#ffffff
+} 
+
+.main-login {
+	background-color: #353535;
+	/* shadows and rounded borders */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.form-control {
+	height: auto !important;
+	padding: 10px 100px !important;
+	margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background: #363636;
+}
+
+.input-group {
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21) !important;
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21) !important;
+	 box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.21) !important;
+}
+
+.button {
+	margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 40%;
+  	display: inline-block;
+  	padding: 15px 25px;
+  	font-size: 15px;
+ 	 cursor: pointer;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+  	color: #fff;
+  	background-color: #4CAF50;
+ 	 border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 3px #004000;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+.main-center {
+	margin-top: 600px;
+	margin: auto auto;
+	max-width: 400px;
+	padding: 40px 80px;
+	background: #353535;
+	color: #ffffff;
+	text-shadow: none;
+	 -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31);
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.31); 
+}
+.p-container{
+	color:#fffffd
+}
+span.input-group-addon i {
+	color: #808080;
+	font-size: 20px;
+}
+
+.login-button {
+	margin-top: 50px;
+}
+
+.login-register {
+	font-size: 16px;
+	text-align: center;
+}

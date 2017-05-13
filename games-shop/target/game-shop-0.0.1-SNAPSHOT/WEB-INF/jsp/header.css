@@ -1,0 +1,39 @@
+/* Add a dark background color with a little bit see-through */
+.navbar
+{
+    font-size: 15px !important;
+
+    margin-bottom: 0;
+
+    letter-spacing: 4px;
+
+    opacity: .9;
+    border: 0;
+    background-color: #252525;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a,
+.navbar .navbar-brand
+{
+    color: #ffffff!important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover
+{
+    color: #ffffff!important;
+}
+
+/* The active link */
+.navbar-nav li.active a
+{
+    color: #ffffff!important;
+    background-color: #400000!important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle
+{
+    border-color: transparent;
+}

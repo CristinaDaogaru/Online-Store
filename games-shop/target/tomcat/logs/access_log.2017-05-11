@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:25 +0300] "GET /registration HTTP/1.1" 200 6417 http-bio-8080-exec-1 693
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:25 +0300] "GET /css/bootstrap.min.css HTTP/1.1" 404 993 http-bio-8080-exec-7 3
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:25 +0300] "GET /style.css HTTP/1.1" 404 969 http-bio-8080-exec-2 2
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:25 +0300] "GET /js/bootstrap.min.js HTTP/1.1" 404 989 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:25 +0300] "GET /js/bootstrap.min.js HTTP/1.1" 404 989 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:29 +0300] "GET /home HTTP/1.1" 200 6726 http-bio-8080-exec-10 259
+0:0:0:0:0:0:0:1 - - [11/May/2017:13:04:34 +0300] "GET /productPage HTTP/1.1" 200 9761 http-bio-8080-exec-10 235
