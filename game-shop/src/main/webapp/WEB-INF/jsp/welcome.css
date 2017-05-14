@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+
+   .navbar
+{
+    font-size: 15px !important;
+
+    margin-bottom: 0;
+
+    letter-spacing: 4px;
+
+    opacity: .9;
+    border: 0;
+    background-color: white;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a,
+.navbar .navbar-brand
+{
+    color: black !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover
+{
+    color: black !important;
+}
+
+/* The active link */
+.navbar-nav li.active a
+{
+ 
+    color: white !important;
+     background-color:#444444;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle
+{
+    border-color: transparent;
+}
+
+   body{
+   background-color:#444444;
+   }
